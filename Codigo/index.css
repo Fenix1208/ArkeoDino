@@ -1,0 +1,52 @@
+body{
+    background: #2A2A2A;
+}
+
+.div_encabezado{
+    text-align: center;
+}
+
+.div_encabezado h1{
+    font-size: 50px;
+    color: white;
+}
+
+.div_encabezado p{
+    font-size: 18px;
+    color: #A0A0A0;
+    margin-bottom: 50px;
+}
+
+.p_inf{
+    margin-top: -40px;
+}
+
+.contenedor{
+    display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-gap: 20px;
+}
+
+.dinosaur-container{
+    width: 200px; 
+    height: 100px;
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: #202020;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0px 10px 10px rgba(245, 245, 245, 0.5);
+}
+
+.dinosaur-name{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+.dinosaur-description{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 18px;
+    color: gray;
+}
